@@ -15,6 +15,7 @@
 		348DEDBB1CAE11F9000D09CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 348DEDB91CAE11F9000D09CD /* LaunchScreen.storyboard */; };
 		348DEDC61CAE11F9000D09CD /* practice123Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DEDC51CAE11F9000D09CD /* practice123Tests.m */; };
 		348DEDD11CAE11F9000D09CD /* practice123UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 348DEDD01CAE11F9000D09CD /* practice123UITests.m */; };
+		34BD8C0F1CAE1EE40020E730 /* BusinessJumpManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BD8C0E1CAE1EE40020E730 /* BusinessJumpManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		348DEDCC1CAE11F9000D09CD /* practice123UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practice123UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		348DEDD01CAE11F9000D09CD /* practice123UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = practice123UITests.m; sourceTree = "<group>"; };
 		348DEDD21CAE11F9000D09CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34BD8C0D1CAE1EE40020E730 /* BusinessJumpManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessJumpManager.h; sourceTree = "<group>"; };
+		34BD8C0E1CAE1EE40020E730 /* BusinessJumpManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessJumpManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				348DEDAF1CAE11F9000D09CD /* AppDelegate.m */,
 				348DEDB11CAE11F9000D09CD /* ViewController.h */,
 				348DEDB21CAE11F9000D09CD /* ViewController.m */,
+				34BD8C0D1CAE1EE40020E730 /* BusinessJumpManager.h */,
+				34BD8C0E1CAE1EE40020E730 /* BusinessJumpManager.m */,
 				348DEDB41CAE11F9000D09CD /* Main.storyboard */,
 				348DEDB71CAE11F9000D09CD /* Assets.xcassets */,
 				348DEDB91CAE11F9000D09CD /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				348DEDB31CAE11F9000D09CD /* ViewController.m in Sources */,
 				348DEDB01CAE11F9000D09CD /* AppDelegate.m in Sources */,
 				348DEDAD1CAE11F9000D09CD /* main.m in Sources */,
+				34BD8C0F1CAE1EE40020E730 /* BusinessJumpManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +504,7 @@
 				348DEDD71CAE11F9000D09CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		348DEDD81CAE11F9000D09CD /* Build configuration list for PBXNativeTarget "practice123Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +513,7 @@
 				348DEDDA1CAE11F9000D09CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		348DEDDB1CAE11F9000D09CD /* Build configuration list for PBXNativeTarget "practice123UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +522,7 @@
 				348DEDDD1CAE11F9000D09CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
